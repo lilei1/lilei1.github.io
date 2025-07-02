@@ -8,6 +8,10 @@
 
 ## **07/01/2025**
 
+## **Abstract**
+
+he human immune system naturally surveils and attempts to eliminate cancer cells, but tumors employ sophisticated evasion strategies, such as downregulating antigens, expressing immune checkpoints, and creating an immunosuppressive microenvironment. Immunotherapy revolutionizes cancer treatment by harnessing and enhancing the body's own immune defenses to overcome these evasive tactics. Key approaches include immune checkpoint inhibitors that "release the brakes" on T cells, adoptive cell therapies like CAR T-cell therapy that genetically engineer immune cells, therapeutic monoclonal antibodies, cancer treatment vaccines, oncolytic viruses that selectively destroy cancer cells, and cytokine therapies that modulate immune responses. While these therapies have achieved remarkable successes, leading to durable remissions, challenges remain in predicting patient response, managing immune-related adverse events, and overcoming the complex immunosuppression within the tumor microenvironment, driving ongoing research into personalized and combination treatment strategies.
+
 ## **Section 1: Foundational Principles of Liquid Biopsy and Molecular Residual Disease**
 
 The management of cancer is undergoing a profound transformation, driven by technologies that allow for the detection and characterization of tumors with unprecedented sensitivity. Central to this evolution are the concepts of liquid biopsy and molecular residual disease (MRD). Together, they represent a paradigm shift away from anatomical assessment toward a more dynamic, molecular understanding of cancer. This section establishes the fundamental scientific and clinical principles that underpin this approach, defining the core concepts, describing the key biological analytes shed by tumors, and explaining why the detection of subclinical disease is a critical objective in modern oncology.
