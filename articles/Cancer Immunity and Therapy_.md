@@ -8,6 +8,10 @@
 
 ## **07/01/2025**
 
+## **Abstract**
+
+In the evolving landscape of oncology, liquid biopsy is emerging as a transformative tool for the detection of Minimal Residual Disease (MRD), offering a non-invasive method to identify the minute number of cancer cells that persist after treatment and often precede clinical relapse. By analyzing circulating tumor DNA (ctDNA) from a simple blood draw, these highly sensitive assays can detect MRD with remarkable lead time over conventional imaging, enabling a more dynamic and real-time assessment of treatment efficacy. This approach has demonstrated significant prognostic value across a spectrum of solid tumors—including colorectal, lung, and breast cancer—and hematological malignancies, where the presence of ctDNA post-treatment is a strong predictor of recurrence. While challenges in standardization, analytical sensitivity, and clinical validation remain, the ongoing integration of advanced bioinformatics and multi-omic strategies is paving the way for liquid biopsy-guided MRD assessment to become a cornerstone of personalized cancer care, allowing for early intervention and tailored therapeutic strategies to improve patient outcomes.
+
 ## **I. The Immune System's Response to Cancer: Surveillance and Evasion**
 
 The human immune system possesses a remarkable, albeit imperfect, capacity to recognize and eliminate malignantly transformed cells, a process termed immune surveillance. This intricate defense mechanism is constantly challenged by the inherent adaptability of cancer cells, which evolve sophisticated strategies to evade immune detection and destruction. Understanding this dynamic interplay is fundamental to developing effective cancer therapies.
