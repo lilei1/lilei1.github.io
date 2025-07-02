@@ -1,302 +1,154 @@
-<!DOCTYPE HTML>
-<!--
-	Arcana by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Arcana by HTML5 UP</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-	</head>
-	<body class="is-preload">
-		<div id="page-wrapper">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Li Lei | Computational Biologist</title>
+    <meta name="description" content="Personal website of Li Lei, a Principal Computational Biologist specializing in multi-omics, genomics, and scalable bioinformatics pipelines.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .section-title {
+            border-bottom: 2px solid #3b82f6; /* blue-500 */
+            padding-bottom: 0.5rem;
+            margin-bottom: 1.5rem;
+        }
+        /* A simple animation for sections */
+        .fade-in-up {
+            animation: fadeInUp 0.8s ease-out forwards;
+            opacity: 0;
+            transform: translateY(20px);
+        }
+        @keyframes fadeInUp {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+     <link rel="preconnect" href="https://rsms.me/">
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+</head>
+<body class="bg-gray-50 text-gray-800">
 
-			<!-- Header -->
-				<div id="header">
-
-					<!-- Logo -->
-						<h1><a href="index.html" id="logo">Arcana <em>by HTML5 UP</em></a></h1>
-
-					<!-- Nav -->
-					<nav id="nav">
-						<ul>
-							<li class="current"><a href="index.html">Home</a></li>
-							<li><a href="#about">About</a></li>
-							<li><a href="#project">Projects</a></li>
-							<li><a href="#publication">Publications</a></li>
-							<li><a href="#mentor">Mentor</a></li>
-							<li><a href="#contact">Contact</a></li>
-						</ul>
-					</nav>					
-
-				</div>
-				
-<!-- About Section -->
-<section id="about" class="wrapper style1">
-    <div class="container">
-        <header class="major">
-            <h2>About Me</h2>
-            <p>A brief introduction about yourself and your expertise.</p>
-        </header>
-    </div>
-</section>
-
-<!-- Projects Section -->
-<section id="project" class="wrapper style2">
-    <div class="container">
-        <header class="major">
-            <h2>Projects</h2>
-            <p>Highlight some of your major projects.</p>
-        </header>
-        <div class="row">
-            <div class="col-6 col-12-narrower">
-                <h3>Project 1</h3>
-                <p>Details about your first project.</p>
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="text-xl font-bold text-gray-800">Li Lei</div>
+            <div class="hidden md:flex space-x-6">
+                <a href="#about" class="text-gray-600 hover:text-blue-500 transition duration-300">About</a>
+                <a href="#experience" class="text-gray-600 hover:text-blue-500 transition duration-300">Experience</a>
+                <a href="#skills" class="text-gray-600 hover:text-blue-500 transition duration-300">Skills</a>
+                <a href="#publications" class="text-gray-600 hover:text-blue-500 transition duration-300">Publications</a>
+                <a href="#contact" class="text-gray-600 hover:text-blue-500 transition duration-300">Contact</a>
             </div>
-            <div class="col-6 col-12-narrower">
-                <h3>Project 2</h3>
-                <p>Details about your second project.</p>
+        </nav>
+    </header>
+
+    <main class="container mx-auto px-6 py-12">
+
+        <section id="hero" class="text-center py-20 fade-in-up">
+            <h1 class="text-4xl md:text-5xl font-extrabold text-gray-900 leading-tight">Li Lei</h1>
+            <p class="text-lg md:text-xl text-blue-600 mt-2">Principal Computational Biologist | PI @ LBNL-JGI</p>
+            <p class="mt-4 max-w-3xl mx-auto text-gray-600">
+                Multi-Omics, GWAS, Genomics | AI/ML | Cloud-HPC Bioinformatics | Scalable Pipelines
+            </p>
+            <div class="mt-8">
+                <a href="https://www.linkedin.com/in/li-lei-bioinfo/" target="_blank" class="text-gray-500 hover:text-blue-500 mx-3 text-2xl"><i class="fab fa-linkedin"></i></a>
+                </div>
+        </section>
+
+        <section id="about" class="py-12 fade-in-up" style="animation-delay: 0.2s;">
+            <h2 class="text-3xl font-bold section-title">About Me</h2>
+            <p class="text-lg text-gray-700 leading-relaxed">
+                I am a senior computational biologist and PI at the DOE Joint Genome Institute (LBNL), with 13+ years of experience developing scalable, cloud/HPC-enabled pipelines and leading multi-omics integration across large biological datasets. My expertise spans RNA-seq, ATAC-seq, methylation, single-cell, and variation analysis.
+            </p>
+        </section>
+
+        <section id="experience" class="py-12 fade-in-up" style="animation-delay: 0.4s;">
+            <h2 class="text-3xl font-bold section-title">Experience</h2>
+            <div class="space-y-8">
+                <div class="bg-white p-6 rounded-lg shadow-sm">
+                    <div class="flex justify-between items-start">
+                        <div>
+                            <h3 class="text-xl font-semibold text-gray-900">Computational Biology Research Scientist (Principal Investigator)</h3>
+                            <p class="text-md text-blue-600">Joint Genome Institute</p>
+                        </div>
+                        <span class="text-sm text-gray-500">Mar 2023 - Present</span>
+                    </div>
+                    <p class="mt-2 text-gray-700">Berkeley, California, United States</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-sm">
+                     <div class="flex justify-between items-start">
+                        <div>
+                            <h3 class="text-xl font-semibold text-gray-900">Bioinformatics Scientist</h3>
+                            <p class="text-md text-blue-600">Berkeley Lab</p>
+                        </div>
+                        <span class="text-sm text-gray-500">May 2019 - Mar 2023</span>
+                    </div>
+                     <p class="mt-2 text-gray-700">Berkeley, California, United States</p>
+                </div>
+                 <div class="bg-white p-6 rounded-lg shadow-sm">
+                     <div class="flex justify-between items-start">
+                        <div>
+                            <h3 class="text-xl font-semibold text-gray-900">Founder</h3>
+                            <p class="text-md text-blue-600">GenAlomic Assembly - Freelance</p>
+                        </div>
+                        <span class="text-sm text-gray-500">Mar 2025 - Present</span>
+                    </div>
+                    <p class="mt-2 text-gray-700">A nonprofit collaborative space for discussing cutting-edge publications and innovative ideas.</p>
+                </div>
             </div>
+        </section>
+
+        <section id="skills" class="py-12 fade-in-up" style="animation-delay: 0.6s;">
+            <h2 class="text-3xl font-bold section-title">Core Skills</h2>
+            <div class="flex flex-wrap gap-2">
+                <span class="bg-blue-100 text-blue-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded">AI for Omics</span>
+                <span class="bg-blue-100 text-blue-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded">LLM for DNA annotation</span>
+                <span class="bg-blue-100 text-blue-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded">Multi-omics Integration</span>
+                <span class="bg-blue-100 text-blue-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded">Nextflow / HPC Pipelines</span>
+                <span class="bg-blue-100 text-blue-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded">Genomics</span>
+                <span class="bg-blue-100 text-blue-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded">GWAS</span>
+                <span class="bg-blue-100 text-blue-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded">Scalable Pipelines</span>
+                <span class="bg-blue-100 text-blue-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded">Bioinformatics</span>
+                <span class="bg-blue-100 text-blue-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded">Grant Writing</span>
+            </div>
+        </section>
+
+        <section id="publications" class="py-12 fade-in-up" style="animation-delay: 0.8s;">
+            <h2 class="text-3xl font-bold section-title">Selected Publications</h2>
+             <div class="space-y-4">
+                 <div class="bg-white p-4 rounded-lg shadow-sm">
+                    <h3 class="font-semibold text-gray-900">The reference genome and abiotic stress responses of the model perennial grass Brachypodium sylvaticum</h3>
+                    <p class="text-sm text-gray-600">G3 Genes|Genomes|Genetics - Oct 26, 2023</p>
+                 </div>
+                 <div class="bg-white p-4 rounded-lg shadow-sm">
+                    <h3 class="font-semibold text-gray-900">The evolutionary patterns of barley pericentromeric chromosome regions, as shaped by linkage disequilibrium and domestication</h3>
+                    <p class="text-sm text-gray-600">The Plant Journal - Jul 7, 2022</p>
+                 </div>
+             </div>
+        </section>
+
+        <section id="contact" class="py-12 text-center fade-in-up" style="animation-delay: 1s;">
+            <h2 class="text-3xl font-bold section-title inline-block">Get In Touch</h2>
+            <p class="mt-4 text-lg text-gray-700">Feel free to reach out for collaborations or just to say hello!</p>
+            <div class="mt-6">
+                 <a href="https://www.linkedin.com/in/li-lei-bioinfo/" target="_blank" class="bg-blue-500 text-white font-bold py-3 px-6 rounded-lg hover:bg-blue-600 transition duration-300">
+                    Contact Me on LinkedIn
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-gray-800 text-white py-6">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2024 Li Lei. All rights reserved.</p>
         </div>
-    </div>
-</section>
+    </footer>
 
-<!-- Publications Section -->
-<section id="publication" class="wrapper style1">
-    <div class="container">
-        <header class="major">
-            <h2>Publications</h2>
-            <p>List your key publications or papers.</p>
-        </header>
-        <ul>
-            <li><strong>Publication 1:</strong> Title, Journal, Year</li>
-            <li><strong>Publication 2:</strong> Title, Journal, Year</li>
-        </ul>
-    </div>
-</section>
-
-<!-- Mentor Section -->
-<section id="mentor" class="wrapper style2">
-    <div class="container">
-        <header class="major">
-            <h2>Mentorship</h2>
-            <p>Describe your mentoring experience or philosophy.</p>
-        </header>
-    </div>
-</section>
-
-<!-- Contact Section -->
-<section id="contact" class="wrapper style3">
-    <div class="container">
-        <header>
-            <h2>Contact Me</h2>
-            <p>Provide a way for visitors to contact you.</p>
-        </header>
-        <form>
-            <div class="row gtr-50">
-                <div class="col-6 col-12-mobilep">
-                    <input type="text" name="name" id="name" placeholder="Name" />
-                </div>
-                <div class="col-6 col-12-mobilep">
-                    <input type="email" name="email" id="email" placeholder="Email" />
-                </div>
-                <div class="col-12">
-                    <textarea name="message" id="message" placeholder="Message" rows="5"></textarea>
-                </div>
-                <div class="col-12">
-                    <ul class="actions">
-                        <li><input type="submit" class="button alt" value="Send Message" /></li>
-                    </ul>
-                </div>
-            </div>
-        </form>
-    </div>
-</section>
-			<!-- Banner -->
-				<section id="banner">
-					<header>
-						<h2>Arcana: <em>A responsive site template freebie by <a href="http://html5up.net">HTML5 UP</a></em></h2>
-						<a href="#" class="button">Learn More</a>
-					</header>
-				</section>
-
-			<!-- Highlights -->
-				<section class="wrapper style1">
-					<div class="container">
-						<div class="row gtr-200">
-							<section class="col-4 col-12-narrower">
-								<div class="box highlight">
-									<i class="icon solid major fa-paper-plane"></i>
-									<h3>This Is Important</h3>
-									<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
-								</div>
-							</section>
-							<section class="col-4 col-12-narrower">
-								<div class="box highlight">
-									<i class="icon solid major fa-pencil-alt"></i>
-									<h3>Also Important</h3>
-									<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
-								</div>
-							</section>
-							<section class="col-4 col-12-narrower">
-								<div class="box highlight">
-									<i class="icon solid major fa-wrench"></i>
-									<h3>Probably Important</h3>
-									<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
-								</div>
-							</section>
-						</div>
-					</div>
-				</section>
-
-			<!-- Gigantic Heading -->
-				<section class="wrapper style2">
-					<div class="container">
-						<header class="major">
-							<h2>A gigantic heading you can use for whatever</h2>
-							<p>With a much smaller subtitle hanging out just below it</p>
-						</header>
-					</div>
-				</section>
-
-			<!-- Posts -->
-				<section class="wrapper style1">
-					<div class="container">
-						<div class="row">
-							<section class="col-6 col-12-narrower">
-								<div class="box post">
-									<a href="#" class="image left"><img src="images/pic01.jpg" alt="" /></a>
-									<div class="inner">
-										<h3>The First Thing</h3>
-										<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
-									</div>
-								</div>
-							</section>
-							<section class="col-6 col-12-narrower">
-								<div class="box post">
-									<a href="#" class="image left"><img src="images/pic02.jpg" alt="" /></a>
-									<div class="inner">
-										<h3>The Second Thing</h3>
-										<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
-									</div>
-								</div>
-							</section>
-						</div>
-						<div class="row">
-							<section class="col-6 col-12-narrower">
-								<div class="box post">
-									<a href="#" class="image left"><img src="images/pic03.jpg" alt="" /></a>
-									<div class="inner">
-										<h3>The Third Thing</h3>
-										<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
-									</div>
-								</div>
-							</section>
-							<section class="col-6 col-12-narrower">
-								<div class="box post">
-									<a href="#" class="image left"><img src="images/pic04.jpg" alt="" /></a>
-									<div class="inner">
-										<h3>The Fourth Thing</h3>
-										<p>Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet mattis, sed a rutrum accumsan sed. Suspendisse eu.</p>
-									</div>
-								</div>
-							</section>
-						</div>
-					</div>
-				</section>
-
-			<!-- CTA -->
-				<section id="cta" class="wrapper style3">
-					<div class="container">
-						<header>
-							<h2>Are you ready to continue your quest?</h2>
-							<a href="#" class="button">Insert Coin</a>
-						</header>
-					</div>
-				</section>
-
-			<!-- Footer -->
-				<div id="footer">
-					<div class="container">
-						<div class="row">
-							<section class="col-3 col-6-narrower col-12-mobilep">
-								<h3>Links to Stuff</h3>
-								<ul class="links">
-									<li><a href="#">Mattis et quis rutrum</a></li>
-									<li><a href="#">Suspendisse amet varius</a></li>
-									<li><a href="#">Sed et dapibus quis</a></li>
-									<li><a href="#">Rutrum accumsan dolor</a></li>
-									<li><a href="#">Mattis rutrum accumsan</a></li>
-									<li><a href="#">Suspendisse varius nibh</a></li>
-									<li><a href="#">Sed et dapibus mattis</a></li>
-								</ul>
-							</section>
-							<section class="col-3 col-6-narrower col-12-mobilep">
-								<h3>More Links to Stuff</h3>
-								<ul class="links">
-									<li><a href="#">Duis neque nisi dapibus</a></li>
-									<li><a href="#">Sed et dapibus quis</a></li>
-									<li><a href="#">Rutrum accumsan sed</a></li>
-									<li><a href="#">Mattis et sed accumsan</a></li>
-									<li><a href="#">Duis neque nisi sed</a></li>
-									<li><a href="#">Sed et dapibus quis</a></li>
-									<li><a href="#">Rutrum amet varius</a></li>
-								</ul>
-							</section>
-							<section class="col-6 col-12-narrower">
-								<h3>Get In Touch</h3>
-								<form>
-									<div class="row gtr-50">
-										<div class="col-6 col-12-mobilep">
-											<input type="text" name="name" id="name" placeholder="Name" />
-										</div>
-										<div class="col-6 col-12-mobilep">
-											<input type="email" name="email" id="email" placeholder="Email" />
-										</div>
-										<div class="col-12">
-											<textarea name="message" id="message" placeholder="Message" rows="5"></textarea>
-										</div>
-										<div class="col-12">
-											<ul class="actions">
-												<li><input type="submit" class="button alt" value="Send Message" /></li>
-											</ul>
-										</div>
-									</div>
-								</form>
-							</section>
-						</div>
-					</div>
-
-					<!-- Icons -->
-						<ul class="icons">
-							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-							<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-							<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-							<li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-							<li><a href="#" class="icon brands fa-google-plus-g"><span class="label">Google+</span></a></li>
-						</ul>
-
-					<!-- Copyright -->
-						<div class="copyright">
-							<ul class="menu">
-								<li>&copy; Untitled. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-							</ul>
-						</div>
-
-				</div>
-
-		</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.dropotron.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+</body>
 </html>
